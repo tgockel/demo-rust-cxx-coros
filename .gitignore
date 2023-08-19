@@ -1,0 +1,7 @@
+target/
+build/
+build-*/
+.vscode/
+Cargo.lock
+*~
+*.swp

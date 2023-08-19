@@ -1,0 +1,22 @@
+style = "tag"
+usize_is_size_t = true
+cpp_compat = true
+pragma_once = true
+language = "C"
+
+[export]
+prefix = "cachers_"
+
+[export.mangle]
+rename_types = "LowerCase"
+
+[export.rename]
+Database = "db"
+DataState = "state"
+ErrorCode = "err"
+ResponseInfo = "response"
+ResponseInner = "response_token"
+RequestId = "request_id"
+
+[enum]
+rename_variants = "QualifiedScreamingSnakeCase"
